@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "freelancing101.html",
+    "href": "freelancing101.html",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "",
+    "text": "This cheatsheet summarizes the contents of this video: speedrun of Generative AI For Everyone. Screenshots come directly from slides used in the course. All credit goes to DeepLearning.AI"
+  },
+  {
+    "objectID": "freelancing101.html#what-is-generative-ai",
+    "href": "freelancing101.html#what-is-generative-ai",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "🔍 What is generative AI?",
+    "text": "🔍 What is generative AI?\n\n\n\n\n\n\n💡 Generative AI are artificial intelligence systems that can produce high quality content, specifically text, images, and audio.\n💡 Large Language Models (LLMs) generate text by repeatedly predicting the next word."
+  },
+  {
+    "objectID": "freelancing101.html#llm-use-cases",
+    "href": "freelancing101.html#llm-use-cases",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "🔍 LLM Use Cases",
+    "text": "🔍 LLM Use Cases\nLLMs have any use cases including:\n\n✍️ Writing\n\nBrainstorming ideas (e.g., PEP names)\nDeveloping strategies (e.g., sales strategy)\nTranslation (e.g., Hindi to English)\n\n\n\n📚 Reading\n\nProofreading (e.g., essay)\nSummarizing (e.g., call center conversations)\nRouting (e.g., email complaint to correct department)\nMonitoring (e.g., dashboard to track customer sentiment)\n\n\n\n💬 Chatting\n\nChatbot (e.g., customer service chatbot)\n\nIt’s useful to further think of LLM use cases as split into two groups.\n\nHere are some examples of tasks that LLMs can carry out 👇"
+  },
+  {
+    "objectID": "freelancing101.html#what-llms-can-and-cannot-do",
+    "href": "freelancing101.html#what-llms-can-and-cannot-do",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "What LLMs Can And Cannot Do",
+    "text": "What LLMs Can And Cannot Do\nCan a fresh college graduate follow the instructions in the prompt to complete the task?\n\n🎓 Assumptions for clarity\n\nNo access to the internet or other resources\nNo training specific to your company/business\nNo memory of previous tasks completed\n\nYou get a different fresh college grad every time!\n\n\n\n\n⚠️ Other things to pay attention to\n\nKnowledge cutoffs (e.g., wouldn’t know current news)\nHallucinations (e.g., claiming incorrect statements albeit confidently)\nInput and output limits (e.g., can’t write an entire book in one go)\nDoes not work well with tabular data (e.g., don’t ask it to query and/or join tables)\nWorks best with unstructured data (e.g., text, images, audio, video)\nBias and toxicity (e.g., just assumes that doctors are men and nurses are women)"
+  },
+  {
+    "objectID": "freelancing101.html#tips-for-prompting",
+    "href": "freelancing101.html#tips-for-prompting",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "Tips For Prompting",
+    "text": "Tips For Prompting\nTip 1 👇\n\nTip 2 👇\n\nTip 3 👇"
+  },
+  {
+    "objectID": "freelancing101.html#developing-genai-projects",
+    "href": "freelancing101.html#developing-genai-projects",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "Developing GenAI Projects",
+    "text": "Developing GenAI Projects\nGenAI projects can be developed much faster than traditional supervised learning projects.\n\nThe steps are also quite different.\n\nIt also costs less than you would think, especially if you compare it to how long it would take a human to perform the task like reading through reviews, writing a report, or classifying documents.\nHowever, building generative AI is a highly empirical (experimental) process – we repeatedly find and fix mistakes."
+  },
+  {
+    "objectID": "freelancing101.html#ways-to-improve-generative-ai-results",
+    "href": "freelancing101.html#ways-to-improve-generative-ai-results",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "Ways To Improve Generative AI Results",
+    "text": "Ways To Improve Generative AI Results\n💬 Prompting i.e., experiment with prompts\n🔍 Retrieval augmented generation (RAG) i.e., give LLM access to external data sources\n🎛️ Fine-tune models i.e., adapt LLM to your task\n🧠 Pretrain models i.e., train LLM from scratch"
+  },
+  {
+    "objectID": "freelancing101.html#how-to-choose-a-model",
+    "href": "freelancing101.html#how-to-choose-a-model",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "How To Choose A Model",
+    "text": "How To Choose A Model\nConsider the model size that you need. If you are concerned about device computation power and cost, you choose a smaller model and fine-tune it for your specific task.\n\nConsider open vs. closed source."
+  },
+  {
+    "objectID": "freelancing101.html#augmentation-vs.-automation",
+    "href": "freelancing101.html#augmentation-vs.-automation",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "Augmentation vs. Automation",
+    "text": "Augmentation vs. Automation\nAugmentation is different from automation.\n👥 Augmentation\nHelp humans with a task. E.g., recommend a response for a customer service agent to edit/approve.\n⚙️ Automation\nAutomatically perform a task. E.g., automatically transcribe and summarize records of customer interactions.\nFor some tasks, businesses will start with augmentation, and gradually move toward automation."
+  },
+  {
+    "objectID": "freelancing101.html#generative-ai-potential",
+    "href": "freelancing101.html#generative-ai-potential",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "Generative AI Potential",
+    "text": "Generative AI Potential\nAI doesn’t automate jobs, it automates tasks. Most jobs involve a collection of many tasks. \nWe evaluate AI potential on two criteria 👇\n⚙️ Technical feasibility: Can AI do it?\n💰 Business value: How valuable is it for AI to augment or automate this task?\nAI will give rise to many changes to our workflows, including increasing productivity, introducing new steps like human verification, and giving rise to completely new workflows such as prompt based analysis and suggestions.\nGenerative AI will disproportionatelyimpact higher paid jobs…\n\n…and specific sectors."
+  },
+  {
+    "objectID": "freelancing101.html#concerns-about-ai",
+    "href": "freelancing101.html#concerns-about-ai",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "Concerns About AI",
+    "text": "Concerns About AI\n😈 Concern 1: Amplifying humanity’s worst impulses\n\n💼 Concern 2: Job Loss\n\nHOWEVER, 5 years later we have a more accurate statement 👇\n\n☠️ Concern 3: Human Extinction\n\nThe next frontier that researchers are working towards is Artificial General Intelligence (AGI), which is when an AI can do any intellectual task that a human can."
+  },
+  {
+    "objectID": "freelancing101.html#responsible-ai",
+    "href": "freelancing101.html#responsible-ai",
+    "title": "🚀 Freelancing 101 Cheatsheet",
+    "section": "Responsible AI",
+    "text": "Responsible AI\nThe dimensions of responsible AI are: Fairness, Transparency, Privacy, Security, and Ethical Use\nAs we continue to work on AI technologies, it’s important to build a culture that encourages discussion and debate, brainstorm what can go wrong, and work with a diverse team."
+  }
+]
