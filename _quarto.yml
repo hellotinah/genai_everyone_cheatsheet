@@ -7,7 +7,7 @@ format:
     css: styles.css
     toc: true
 website:
-  title: "Freelancing 101 Cheatsheet"
+  title: "Generative AI For Everyone Cheatsheet"
   site-url: https://yourusername.github.io/your-repo-name/
 
 
