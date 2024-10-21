@@ -1,0 +1,15 @@
+project:
+     type: website
+     output-dir: docs
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+website:
+  title: "Freelancing 101 Cheatsheet"
+  site-url: https://yourusername.github.io/your-repo-name/
+
+
+
+

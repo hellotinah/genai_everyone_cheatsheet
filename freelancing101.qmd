@@ -1,0 +1,188 @@
+---
+title: "🚀 Freelancing 101 Cheatsheet"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    code-fold: true
+    code-tools: true
+    css: styles.css
+    include-in-header:
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+          <script>mermaid.initialize({startOnLoad:true});</script>
+---
+
+This cheatsheet summarizes the contents of this [video](https://www.youtube.com/watch?v=utPBI1qitJU): speedrun of Generative AI For Everyone. Screenshots come directly from slides used in the course. All credit goes to DeepLearning.AI 
+
+
+## 🔍 What is generative AI?
+
+::: {.callout}
+💡 Generative AI are artificial intelligence systems that can produce high quality
+content, specifically text, images, and audio. 
+
+💡 Large Language Models (LLMs) generate text by repeatedly predicting the next word. 
+:::
+
+## 🔍 LLM Use Cases
+
+LLMs have any use cases including: 
+
+#### ✍️ Writing
+
+- Brainstorming ideas (e.g., PEP names)
+- Developing strategies (e.g., sales strategy)
+- Translation (e.g., Hindi to English)
+
+#### 📚 Reading
+
+- Proofreading (e.g., essay)
+- Summarizing (e.g., call center conversations)
+- Routing (e.g., email complaint to correct department)
+- Monitoring (e.g., dashboard to track customer sentiment)
+
+#### 💬 Chatting
+
+- Chatbot (e.g., customer service chatbot)
+
+It's useful to further think of LLM use cases as split into two groups. 
+
+![](/webvssoftware.png)
+
+Here are some examples of tasks that LLMs can carry out 👇 
+
+![](/llm_task_examples.png)
+
+## What LLMs Can And Cannot Do
+
+Can a fresh college graduate follow the instructions in the prompt to complete the task?
+
+#### 🎓 Assumptions for clarity
+
+- No access to the internet or other resources
+- No training specific to your company/business
+- No memory of previous tasks completed
+  - You get a different fresh college grad every time!
+
+#### ⚠️ Other things to pay attention to
+
+- Knowledge cutoffs (e.g., wouldn't know current news)
+- Hallucinations (e.g., claiming incorrect statements albeit confidently)
+- Input and output limits (e.g., can't write an entire book in one go)
+- Does not work well with tabular data (e.g., don't ask it to query and/or join tables)
+- Works best with unstructured data (e.g., text, images, audio, video)
+- Bias and toxicity (e.g., just assumes that doctors are men and nurses are women)
+
+## Tips For Prompting 
+
+Tip 1 👇
+
+![](/detailed_and_specific.png)
+
+Tip 2 👇
+
+![](/guide_model.png)
+
+Tip 3 👇
+
+![](/experiment_and_iterate.png)
+
+## Developing GenAI Projects
+
+GenAI projects can be developed much faster than traditional supervised learning projects.
+
+![](/development_timeline.png)
+
+The steps are also quite different. 
+
+![](/lifecycle_of_project.png)
+
+It also costs less than you would think, especially if you compare it to how long it would take a human to perform the task like reading through reviews, writing a report, or classifying documents. 
+
+However, building generative AI is a highly empirical (experimental)
+process – we repeatedly find and fix mistakes. 
+
+## Ways To Improve Generative AI Results 
+
+💬 Prompting i.e., experiment with prompts 
+
+🔍 Retrieval augmented generation (RAG) i.e., give LLM access to external data sources
+
+🎛️ Fine-tune models i.e., adapt LLM to your task
+
+🧠 Pretrain models i.e., train LLM from scratch
+
+## How To Choose A Model 
+
+Consider the model size that you need. If you are concerned about device computation power and cost, you choose a smaller model and fine-tune it for your specific task. 
+
+![](/model_size.png)
+
+Consider open vs. closed source. 
+
+![](closed_vs_open.png)
+
+## Augmentation vs. Automation 
+
+Augmentation is different from automation. 
+
+👥 Augmentation
+
+Help humans with a task.
+E.g., recommend a response for a customer service agent to edit/approve.
+
+⚙️ Automation
+
+Automatically perform a task.
+E.g., automatically transcribe and summarize records of customer interactions.
+
+For some tasks, businesses will start with augmentation, and gradually move toward automation.
+
+## Generative AI Potential 
+AI doesn't automate jobs, it automates tasks. Most jobs involve a collection of many tasks. 
+![](task_examples.png)
+
+We evaluate AI potential on two criteria 👇
+
+⚙️ Technical feasibility: Can AI do it?
+
+💰 Business value: How valuable is it for AI to augment or automate this task?
+
+AI will give rise to many changes to our workflows, including increasing productivity, introducing new steps like human verification, and giving rise to completely new workflows such as prompt based analysis and suggestions. 
+
+Generative AI will disproportionatelyimpact higher paid jobs... 
+
+![](/job_impacts.png)
+
+...and specific sectors. 
+![](/jobs_by_sector.png)
+
+
+## Concerns About AI 
+
+😈 Concern 1: Amplifying humanity's worst impulses 
+
+![](/concern%201.png)
+
+💼 Concern 2: Job Loss 
+
+![](/concern%202.1.png)
+
+HOWEVER, 5 years later we have a more accurate statement 👇
+
+![](/concern%202.2.png)
+
+☠️ Concern 3: Human Extinction
+
+![](/concern%203.png)
+
+The next frontier that researchers are working towards is Artificial General Intelligence (AGI), which is when an AI can do any intellectual task that a human can. 
+
+## Responsible AI 
+
+The dimensions of responsible AI are: Fairness, Transparency, Privacy, Security, and Ethical Use 
+
+As we continue to work on AI technologies, it's important to build a culture that encourages discussion and debate, brainstorm what can go wrong, and work with a diverse team. 

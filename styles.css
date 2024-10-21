@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h1, h2, h3 { 
+    color: #8E44AD; 
+  }
+  
+  .emoji-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .emoji-list li {
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .emoji-list li::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 24px;
+  }
+  
+  .callout {
+    border-left: 4px solid #8E44AD;
+    background-color: #F3E5F5;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .warning {
+    background-color: #FFEBEE;
+    border-left-color: #F44336;
+  }
+  
+  .tip {
+    background-color: #E8F5E9;
+    border-left-color: #4CAF50;
+  }
+  
+  .book {
+    background-color: #FFF9C4;
+    border-left-color: #FBC02D;
+  }
