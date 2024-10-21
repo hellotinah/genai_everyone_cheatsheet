@@ -15,7 +15,7 @@ format:
           <script>mermaid.initialize({startOnLoad:true});</script>
 ---
 
-This cheatsheet summarizes the contents of this[video](https://youtu.be/qpWqrIsaKwo): Speedrun of Generative AI For Everyone. Screenshots come directly from slides used in the course. All credit goes to DeepLearning.AI 
+This cheatsheet summarizes the contents of this [video](https://youtu.be/qpWqrIsaKwo): Speedrun of Generative AI For Everyone. Screenshots come directly from slides used in the course. All credit goes to DeepLearning.AI 
 
 
 ## 🔍 What is generative AI?
